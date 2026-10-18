@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 2090" class="metabolism-network" role="img" aria-labelledby="network-title network-desc">
+<title id="network-title">氯氮平代谢反应总图</title>
+<desc id="network-desc">14个化学结构共享同一张反应网络。母药居上方中央，连接N-氧化、N-脱甲基、N-结合及芳环与O-结合分支。箭头标明酶和证据来源，产物标明活性。虚线为合并路径，不表示确定单步或人体通量。</desc>
+<defs><marker id="network-arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#003153"></path></marker></defs>
+<rect width="1260" height="2090" fill="#FFFFFF"></rect>
+<g font-family="Microsoft YaHei, PingFang SC, sans-serif">
+<text x="630" y="44" text-anchor="middle" font-size="28" font-weight="bold" fill="#003153"><tspan x="630" dy="0">主要代谢物与后续结合反应</tspan></text>
+<text x="630" y="80" text-anchor="middle" font-size="21" font-weight="normal" fill="#666666"><tspan x="630" dy="0">CLZ＝氯氮平　NDMC＝去甲氯氮平　CNO＝氯氮平 N-氧化物</tspan></text>
+<g class="reaction-edge" data-from="clz" data-to="cno"><path d="M510 225 H300" fill="none" stroke="#003153" stroke-width="2.5" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="cno" data-to="clz"><path d="M300 315 H510" fill="none" stroke="#003153" stroke-width="2.5" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="clz" data-to="ndmc"><path d="M750 225 H960" fill="none" stroke="#003153" stroke-width="2.5" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="clz" data-to="clz5n"><path d="M630 410 V455 H180 V610" fill="none" stroke="#003153" stroke-width="2.5" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="clz" data-to="clzqn"><path d="M630 410 V610" fill="none" stroke="#003153" stroke-width="2.5" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="ndmc" data-to="ndmc5n"><path d="M1080 410 V610" fill="none" stroke="#003153" stroke-width="2.5" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="clz" data-to="clz7oh"><path d="M750 375 H840 V960 H180 V1110" fill="none" stroke="#003153" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="clz" data-to="clz8oh"><path d="M840 960 H630 V1110" fill="none" stroke="#003153" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="ndmc" data-to="ndmc8oh"><path d="M1200 375 H1235 V960 H1080 V1110" fill="none" stroke="#003153" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="clz7oh" data-to="clz7og"><path d="M180 1400 V1490 H140 V1700" fill="none" stroke="#003153" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="clz7oh" data-to="clz7os"><path d="M180 1490 H385 V1700" fill="none" stroke="#003153" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="clz8oh" data-to="clz8og"><path d="M630 1400 V1700" fill="none" stroke="#003153" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="ndmc8oh" data-to="ndmc8og"><path d="M1080 1400 V1490 H875 V1700" fill="none" stroke="#003153" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#network-arrowhead)"></path></g>
+<g class="reaction-edge" data-from="ndmc" data-to="ndmc7os"><path d="M1235 960 V1650 H1120 V1700" fill="none" stroke="#003153" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#network-arrowhead)"></path></g>
+<g class="network-molecule" id="pk-molecule-cno" data-chemical="cno">
+<rect x="60" y="120" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="180" y="149" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="180" dy="0">氯氮平 N-氧化物</tspan><tspan x="180" dy="26">CNO</tspan></text>
+<image href="../browser/molecule-cno.png" x="70" y="185" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M72 350 H288" stroke="#003153" stroke-width="1.5"></path>
+<text x="180" y="374" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="180" dy="0">标签试验：无活性</tspan><tspan x="180" dy="24">可回转为母药 [3, 43]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-clz" data-chemical="clz">
+<rect x="510" y="120" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="630" y="149" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="630" dy="0">氯氮平</tspan><tspan x="630" dy="26">CLZ · 母药</tspan></text>
+<image href="../browser/molecule-clz.png" x="520" y="185" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M522 350 H738" stroke="#003153" stroke-width="1.5"></path>
+<text x="630" y="374" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="630" dy="0">有药理活性 [3]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-ndmc" data-chemical="ndmc">
+<rect x="960" y="120" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="1080" y="149" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="1080" dy="0">去甲氯氮平</tspan><tspan x="1080" dy="26">NDMC</tspan></text>
+<image href="../browser/molecule-ndmc.png" x="970" y="185" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M972 350 H1188" stroke="#003153" stroke-width="1.5"></path>
+<text x="1080" y="374" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="1080" dy="0">有体外活性 [3, 6]</tspan><tspan x="1080" dy="24">人体疗效贡献未定</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-clz5n" data-chemical="clz5n">
+<rect x="60" y="610" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="180" y="639" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="180" dy="0">CLZ-5-N-GlcA</tspan></text>
+<image href="../browser/molecule-clz5n.png" x="70" y="675" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M72 840 H288" stroke="#003153" stroke-width="1.5"></path>
+<text x="180" y="864" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="180" dy="0">独立活性：资料不足</tspan><tspan x="180" dy="24">[44, 45]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-clzqn" data-chemical="clzqn">
+<rect x="510" y="610" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="630" y="639" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="630" dy="0">CLZ-N⁺-GlcA</tspan></text>
+<image href="../browser/molecule-clzqn.png" x="520" y="675" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M522 840 H738" stroke="#003153" stroke-width="1.5"></path>
+<text x="630" y="864" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="630" dy="0">独立活性：资料不足</tspan><tspan x="630" dy="24">[44, 45]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-ndmc5n" data-chemical="ndmc5n">
+<rect x="960" y="610" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="1080" y="639" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="1080" dy="0">NDMC-5-N-GlcA</tspan></text>
+<image href="../browser/molecule-ndmc5n.png" x="970" y="675" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M972 840 H1188" stroke="#003153" stroke-width="1.5"></path>
+<text x="1080" y="864" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="1080" dy="0">独立活性：资料不足</tspan><tspan x="1080" dy="24">[44, 45]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-clz7oh" data-chemical="clz7oh">
+<rect x="60" y="1110" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="180" y="1139" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="180" dy="0">7-OH-CLZ</tspan></text>
+<image href="../browser/molecule-clz7oh.png" x="70" y="1175" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M72 1340 H288" stroke="#003153" stroke-width="1.5"></path>
+<text x="180" y="1364" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="180" dy="0">羟化类：标签试验无活性</tspan><tspan x="180" dy="24">独立活性资料不足 [3, 46, 47]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-clz8oh" data-chemical="clz8oh">
+<rect x="510" y="1110" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="630" y="1139" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="630" dy="0">8-脱氯-8-OH-CLZ</tspan></text>
+<image href="../browser/molecule-clz8oh.png" x="520" y="1175" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M522 1340 H738" stroke="#003153" stroke-width="1.5"></path>
+<text x="630" y="1364" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="630" dy="0">羟化类：标签试验无活性</tspan><tspan x="630" dy="24">独立活性资料不足 [3, 46, 47]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-ndmc8oh" data-chemical="ndmc8oh">
+<rect x="960" y="1110" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="1080" y="1139" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="1080" dy="0">8-脱氯-8-OH-NDMC</tspan></text>
+<image href="../browser/molecule-ndmc8oh.png" x="970" y="1175" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M972 1340 H1188" stroke="#003153" stroke-width="1.5"></path>
+<text x="1080" y="1364" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="1080" dy="0">羟化类：标签试验无活性</tspan><tspan x="1080" dy="24">独立活性资料不足 [3, 46, 47]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-clz7og" data-chemical="clz7og">
+<rect x="20" y="1700" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="140" y="1729" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="140" dy="0">7-OH-CLZ</tspan><tspan x="140" dy="26">O-GlcA</tspan></text>
+<image href="../browser/molecule-clz7og.png" x="30" y="1765" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M32 1930 H248" stroke="#003153" stroke-width="1.5"></path>
+<text x="140" y="1954" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="140" dy="0">独立活性：资料不足</tspan><tspan x="140" dy="24">[46, 47]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-clz7os" data-chemical="clz7os">
+<rect x="265" y="1700" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="385" y="1729" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="385" dy="0">7-OH-CLZ</tspan><tspan x="385" dy="26">O-sulfate</tspan></text>
+<image href="../browser/molecule-clz7os.png" x="275" y="1765" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M277 1930 H493" stroke="#003153" stroke-width="1.5"></path>
+<text x="385" y="1954" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="385" dy="0">独立活性：资料不足</tspan><tspan x="385" dy="24">[46, 47]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-clz8og" data-chemical="clz8og">
+<rect x="510" y="1700" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="630" y="1729" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="630" dy="0">8-脱氯-8-OH-CLZ</tspan><tspan x="630" dy="26">O-GlcA</tspan></text>
+<image href="../browser/molecule-clz8og.png" x="520" y="1765" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M522 1930 H738" stroke="#003153" stroke-width="1.5"></path>
+<text x="630" y="1954" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="630" dy="0">独立活性：资料不足</tspan><tspan x="630" dy="24">[46, 47]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-ndmc8og" data-chemical="ndmc8og">
+<rect x="755" y="1700" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="875" y="1729" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="875" dy="0">8-脱氯-8-OH-NDMC</tspan><tspan x="875" dy="26">O-GlcA</tspan></text>
+<image href="../browser/molecule-ndmc8og.png" x="765" y="1765" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M767 1930 H983" stroke="#003153" stroke-width="1.5"></path>
+<text x="875" y="1954" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="875" dy="0">独立活性：资料不足</tspan><tspan x="875" dy="24">[46, 47]</tspan></text>
+</g>
+<g class="network-molecule" id="pk-molecule-ndmc7os" data-chemical="ndmc7os">
+<rect x="1000" y="1700" width="240" height="290" rx="10" fill="#FFFFFF" stroke="#CCCCCC"></rect>
+<text x="1120" y="1729" text-anchor="middle" font-size="21" font-weight="bold" fill="#003153"><tspan x="1120" dy="0">7-OH-NDMC</tspan><tspan x="1120" dy="26">O-sulfate</tspan></text>
+<image href="../browser/molecule-ndmc7os.png" x="1010" y="1765" width="220" height="157" preserveAspectRatio="xMidYMid meet"></image>
+<path d="M1012 1930 H1228" stroke="#003153" stroke-width="1.5"></path>
+<text x="1120" y="1954" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="1120" dy="0">独立活性：资料不足</tspan><tspan x="1120" dy="24">[46, 47]</tspan></text>
+</g>
+<rect x="303.0" y="129" width="204" height="88" rx="4" fill="#FFFFFF"></rect>
+<text x="405" y="151" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="405" dy="0">CYP3A4 / FMO3</tspan><tspan x="405" dy="28">另有 CYP1A2 等</tspan><tspan x="405" dy="28">N-氧化 · 体外 [41, 42]</tspan></text>
+<rect x="303.0" y="323" width="204" height="60" rx="4" fill="#FFFFFF"></rect>
+<text x="405" y="345" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="405" dy="0">人体回转 [43]</tspan><tspan x="405" dy="28">还原酶未定</tspan></text>
+<rect x="753.0" y="144" width="204" height="60" rx="4" fill="#FFFFFF"></rect>
+<text x="855" y="166" text-anchor="middle" font-size="18" font-weight="normal" fill="#003153"><tspan x="855" dy="0">CYP1A2 / CYP3A4</tspan><tspan x="855" dy="28">N-脱甲基 · 体外 [41]</tspan></text>
+<rect x="40.0" y="517" width="280" height="60" rx="4" fill="#FFFFFF"></rect>
+<text x="180" y="539" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="180" dy="0">UGT1A4</tspan><tspan x="180" dy="28">N-结合 · 体外 [44, 45]</tspan></text>
+<rect x="490.0" y="517" width="280" height="60" rx="4" fill="#FFFFFF"></rect>
+<text x="630" y="539" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="630" dy="0">UGT1A1 / UGT1A4</tspan><tspan x="630" dy="28">N-结合 · 体外 [44, 45]</tspan></text>
+<rect x="940.0" y="517" width="280" height="60" rx="4" fill="#FFFFFF"></rect>
+<text x="1080" y="539" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="1080" dy="0">UGT1A4</tspan><tspan x="1080" dy="28">N-结合 · 体外 [44, 45]</tspan></text>
+<rect x="40.0" y="1012" width="280" height="60" rx="4" fill="#FFFFFF"></rect>
+<text x="180" y="1034" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="180" dy="0">羟化 · 具体人体酶未定</tspan><tspan x="180" dy="28">合并路径 [46, 47]</tspan></text>
+<rect x="490.0" y="1012" width="280" height="60" rx="4" fill="#FFFFFF"></rect>
+<text x="630" y="1034" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="630" dy="0">脱氯羟化 · 具体人体酶未定</tspan><tspan x="630" dy="28">合并路径 [46, 47]</tspan></text>
+<rect x="940.0" y="1012" width="280" height="60" rx="4" fill="#FFFFFF"></rect>
+<text x="1080" y="1034" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="1080" dy="0">脱氯羟化 · 具体人体酶未定</tspan><tspan x="1080" dy="28">合并路径 [46, 47]</tspan></text>
+<rect x="25.0" y="1564" width="230" height="88" rx="4" fill="#FFFFFF"></rect>
+<text x="140" y="1586" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="140" dy="0">O-GlcA</tspan><tspan x="140" dy="28">具体 UGT 未定</tspan><tspan x="140" dy="28">[46, 47]</tspan></text>
+<rect x="270.0" y="1564" width="230" height="88" rx="4" fill="#FFFFFF"></rect>
+<text x="385" y="1586" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="385" dy="0">O-sulfate</tspan><tspan x="385" dy="28">具体结合酶未定</tspan><tspan x="385" dy="28">[46, 47]</tspan></text>
+<rect x="515.0" y="1564" width="230" height="88" rx="4" fill="#FFFFFF"></rect>
+<text x="630" y="1586" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="630" dy="0">O-GlcA</tspan><tspan x="630" dy="28">具体 UGT 未定</tspan><tspan x="630" dy="28">[46, 47]</tspan></text>
+<rect x="760.0" y="1564" width="230" height="88" rx="4" fill="#FFFFFF"></rect>
+<text x="875" y="1586" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="875" dy="0">O-GlcA</tspan><tspan x="875" dy="28">具体 UGT 未定</tspan><tspan x="875" dy="28">[46, 47]</tspan></text>
+<rect x="1005.0" y="1518" width="230" height="88" rx="4" fill="#FFFFFF"></rect>
+<text x="1120" y="1540" text-anchor="middle" font-size="20" font-weight="normal" fill="#003153"><tspan x="1120" dy="0">羟化 + O-sulfate</tspan><tspan x="1120" dy="28">具体人体酶未定</tspan><tspan x="1120" dy="28">合并路径 [46, 47]</tspan></text>
+<text x="630" y="2042" text-anchor="middle" font-size="21" font-weight="normal" fill="#666666"><tspan x="630" dy="0">实线：所列转化关系　虚线：合并路径，步骤与具体酶未定</tspan></text>
+<text x="630" y="2073" text-anchor="middle" font-size="21" font-weight="normal" fill="#666666"><tspan x="630" dy="0">GlcA＝葡萄糖醛酸基（糖环省略）· 箭头不表示人体通路贡献率</tspan></text>
+</g></svg>
