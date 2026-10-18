@@ -86,7 +86,7 @@ input[type="search"]::-webkit-search-cancel-button{appearance:none}
 <nav class="breadcrumbs" aria-label="当前位置"><a href="index.html">知识入口</a><span id="breadcrumb-context" hidden><span aria-hidden="true"> / </span><a id="breadcrumb-section" href="index.html">所属分区</a></span><span aria-hidden="true"> / </span><span>内容状态</span></nav>
 <section class="status-card" aria-labelledby="status-title">
 <div class="status-art" aria-hidden="true"><svg viewBox="0 0 220 220" fill="none"><rect x="35" y="24" width="135" height="172" rx="12" fill="var(--atlas-white)" stroke="var(--atlas-blue)" stroke-width="2"/><path d="M59 53h87M59 75h65" stroke="var(--atlas-blue)" stroke-width="4" stroke-linecap="round"/><path d="M59 103h87M59 124h87M59 145h40" stroke="var(--atlas-gray-300)" stroke-width="4" stroke-linecap="round"/><circle cx="161" cy="157" r="39" fill="var(--atlas-yellow)" stroke="var(--atlas-blue)" stroke-width="2"/><path d="M161 135v23l14 10" stroke="var(--atlas-blue)" stroke-width="3" stroke-linecap="round"/><path d="M66 171h27" stroke="var(--atlas-blue)" stroke-width="3" stroke-linecap="round"/></svg><span class="status-art-caption" id="status-art-caption">CONTENT IN PROGRESS</span></div>
-<div class="status-content"><span class="status-pill" id="status-pill">内容未完成</span><h1 id="status-title" tabindex="-1">内容正在建设中</h1><p class="status-description" id="status-description">此页面内容尚未完成，或正在更新维护。完整资料暂未开放，你可以先返回入口，浏览现有分区与示例。</p><div class="current-topic">当前内容<strong id="current-topic">知识图谱</strong></div><div class="status-actions"><a class="primary-link" id="section-link" href="index.html">返回所属分区 →</a><a class="secondary-link" href="index.html">返回入口</a></div><p class="status-note">该状态提示不代表内容已审核完成。具体开放时间以页面更新为准。</p></div>
+<div class="status-content"><span class="status-pill" id="status-pill">内容未完成</span><h1 id="status-title" tabindex="-1">内容正在建设中</h1><p class="status-description" id="status-description">此页面内容尚未完成，或正在更新维护。完整资料暂未开放，你可以先返回入口，浏览现有分区与图谱。</p><div class="current-topic">当前内容<strong id="current-topic">知识图谱</strong></div><div class="status-actions"><a class="primary-link" id="section-link" href="index.html">返回所属分区 →</a><a class="secondary-link" href="index.html">返回入口</a></div><p class="status-note">该状态提示不代表内容已审核完成。具体开放时间以页面更新为准。</p></div>
 </section>
 <aside class="continue-panel" aria-labelledby="continue-title"><h2 id="continue-title">也可以从这些分区继续浏览</h2><div class="continue-links"><a href="index.html#foundations">药理学基础 →</a><a href="index.html#molecules-receptors">内源分子与受体 →</a><a href="index.html#psychopharmacology">精神药理学 →</a></div><p>入口页保留各分区的当前内容状态，以及已有图集的概览。</p></aside>
 </main>
@@ -104,7 +104,7 @@ const isMaintenance=params.get('status')==='maintenance';
 const title=isMaintenance?'页面正在维护中':'内容正在建设中';
 document.getElementById('status-title').textContent=title;
 document.getElementById('status-pill').textContent=isMaintenance?'维护中':'内容未完成';
-document.getElementById('status-description').textContent=isMaintenance?'当前页面正在更新维护，相关内容暂未开放。你可以返回入口，或浏览其他分区。':'这部分内容尚未完成，完整资料暂未开放。你可以先返回入口，浏览现有分区与示例。';
+document.getElementById('status-description').textContent=isMaintenance?'当前页面正在更新维护，相关内容暂未开放。你可以返回入口，或浏览其他分区。':'这部分内容尚未完成，完整资料暂未开放。你可以先返回入口，浏览现有分区与图谱。';
 document.getElementById('status-art-caption').textContent=isMaintenance?'MAINTENANCE IN PROGRESS':'CONTENT IN PROGRESS';
 document.getElementById('current-topic').textContent=topic||(section?section.name:'知识图谱');
 const sectionLink=document.getElementById('section-link');
